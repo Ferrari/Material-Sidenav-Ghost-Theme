@@ -4,7 +4,11 @@
             <div class="row">
                 <div class="post col s12 m12 l10 offset-l1">
                     <article class="card">
+                        {{#if image}}
                         <div class="card-image bg-darken">
+                        {{else}}
+                        <div class="card-image bg-darken-full">
+                        {{/if}}
                             <img src="{{image}}">
                             <h2 class="card-title animated fadeInDown">
                                 {{title}}
