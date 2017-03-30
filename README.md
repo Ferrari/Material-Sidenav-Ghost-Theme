@@ -6,7 +6,6 @@ This is a Ghost them based on amazing SuphanutJui [Material-Sidenav-Ghost-Theme]
 
 Download (or clone) the respository, put it in ghost/content/themes.
 
-###License 
+### License 
 
 MIT License
-
