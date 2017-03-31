@@ -13,7 +13,7 @@
       displaySearchInfo: false,
       result_template: "<a href='{{link}}'><li class='list-group-item'>{{title}}</li></a>",
       before: function () {
-        $(".searchresult").removeClass("results-hide");
+        $('#searchresult').removeClass('results-hide');
       }
     })
 

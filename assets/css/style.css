@@ -503,7 +503,7 @@ header, main, footer {
   background-color: rgba(38, 166, 154, 1);
   list-style: none;
   text-align: center;
-  height: 300px;
+  max-height: 300px;
   overflow-y: auto;
 }
 .search-form .search-results a {
@@ -511,7 +511,7 @@ header, main, footer {
   white-space: nowrap;
   overflow-x: hidden;
 }
-.search-form .results.hide {
+.search-form .results-hide {
   display: none;
 }
 
