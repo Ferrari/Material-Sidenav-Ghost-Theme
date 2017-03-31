@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
 
 html { font-size: 62.5%; } 
 body { font-size: 1.4rem; background: #EEE;} 
@@ -493,6 +493,26 @@ header, main, footer {
 
 .post .card .card-action .fb, .post .card .card-action .tw, .post .card .card-action .gp {
     display: inline-block;
+}
+
+/* search bar */
+.search-form {
+  height: 48px;
+}
+.search-form .search-results {
+  background-color: rgba(38, 166, 154, 1);
+  list-style: none;
+  text-align: center;
+  height: 300px;
+  overflow-y: auto;
+}
+.search-form .search-results a {
+  font-size: 1.4rem;
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+.search-form .results.hide {
+  display: none;
 }
 
 @media only screen and (min-width : 992px) {

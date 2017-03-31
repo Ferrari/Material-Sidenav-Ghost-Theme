@@ -45,6 +45,25 @@
                                 <i class="fa fa-google-plus" aria-hidden="true"></i>
                             </a>
                         </div>
+                        <div class="card-action">
+                            <div id="disqus_thread"></div>
+                            <script>
+                            if (CUSTVARS.haveDisqus) {
+                              var disqus_config = function () {
+                                this.page.url = '{{url absolute="true"}}';
+                                this.page.identifier = 'ghost-{{id}}';
+                              };
+
+                              (function() {
+                              var d = document, s = d.createElement('script');
+                              s.src = 'https://ferrariferrari.disqus.com/embed.js';
+                              s.setAttribute('data-timestamp', +new Date());
+                              (d.head || d.body).appendChild(s);
+                              })();
+                            }
+                            </script>
+                            <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                        </div>
                     </article>
                 </div>
             </div>
